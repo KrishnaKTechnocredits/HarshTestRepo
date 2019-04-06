@@ -11,6 +11,7 @@ public class LoginTest extends TestBase {
 	public final void login() {
 		String expected = "Success!";
 		start();
+		System.out.println("123");
 		gotoRegistrationPage();
 		RegistrationPage registrationPage = new RegistrationPage();
 		registrationPage.login("krishna", "Krishna@123");
